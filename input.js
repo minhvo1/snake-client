@@ -16,7 +16,7 @@ const handleUserInput = function (key) {
   if (key === 'a') connection.write('Move: left')
   if (key === 's') connection.write('Move: down')
   if (key === 'd') connection.write('Move: right')
-
+  if (key === 'v') connection.write('Say: Hello there!')
   if (key === '\u0003') {
     process.stdout.write("Thanks for playing!\n");
     process.exit()

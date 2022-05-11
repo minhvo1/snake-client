@@ -14,9 +14,9 @@ const connect = function () {
     //conn.write('Move: up');
     //conn.write('Move: right');
   })
-  conn.on("data'", (data) => {
-    console.log('Server: ', data)
-  })
+  // conn.on("data'", (data) => {
+  //   console.log('Server: ', data)
+  // })
   
   return conn;
 };
